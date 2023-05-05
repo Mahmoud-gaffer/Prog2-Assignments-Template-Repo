@@ -111,7 +111,7 @@ package BankSystem;
 
 public class Main {
     public static void main(String[] args) {
-        employee emp = new employee("John", 30, "Male", 5000, "IT");
+        employee emp = new employee("Mahmoud", 30, "Male", 5000, "IT");
         emp.PrintData();
         System.out.println("Salary: " + emp.getSalary() + ", Department: " + emp.getDepartment());
 
@@ -123,7 +123,7 @@ public class Main {
         account2.setBalance(500, 10);
         System.out.println("Balance of account2: " + account2.getBalancePlusTenPercent());
 
-        customer cust = new customer("Alice", 25, "Female", 12345, "123 Main St.");
+        customer cust = new customer("Reham", 25, "Female", 12345, "123 Main St.");
         cust.PrintData();
     }
 }
@@ -131,9 +131,9 @@ public class Main {
 --------------------------------------------------------------------------------------------------
 
 //OUT PUT
-//Name: John, Age: 30, Gender: Male
+//Name: Mahmoud, Age: 30, Gender: Male
 //Salary: 5000.0, Department: IT
 //Salary: 5000.0, Department: IT
 //Balance of account1: 1100.0
 //Balance of account2: 495.0
-//Name: Alice, Age: 25, Gender: Female 
+//Name: Reham, Age: 25, Gender: Female 
